@@ -17,11 +17,11 @@
       "large": "img/ntopng_logo.svg"
     },
     "links": [
-      {"name": "GitHub", "url": "https://github.com/ntop/ntopng/tree/dev/grafana/ntopng-datasource"},
-      {"name": "MIT License", "url": "https://github.com/ntop/ntopng/blob/dev/grafana/ntopng-datasource/LICENSE"}
+      {"name": "GitHub", "url": "https://github.com/ntop/ntopng-grafana-datasource"},
+      {"name": "MIT License", "url": "https://github.com/ntop/ntopng-grafana-datasource/blob/master/LICENSE"}
     ],
-    "version": "1.0",
-    "updated": "2017-07-12"
+    "version": "1.0.0",
+    "updated": "2017-09-25"
   },
 
   "dependencies": {
