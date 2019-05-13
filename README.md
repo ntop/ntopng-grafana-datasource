@@ -1,3 +1,10 @@
+Discontinuation Notice
+----------------------
+
+ntop has redicected resources and focus to the integration of InfluxDB, which is natively supported in ntopng starting from version 3.8. For this reason, support and development for this plugin have been discontinued in favour of the InfluxDB Grafana datasource plugin https://grafana.com/docs/features/datasources/influxdb/.
+
+To start using InfluxDB with ntopng please refer to the documentation: https://www.ntop.org/guides/ntopng/basic_concepts/timeseries.html#influxdb-driver
+
 ## ntopng Datasource
 
 The official ntopng Grafana datasource plugin lets you quickly
@@ -41,7 +48,7 @@ identify an host are prefixed with a `host_` followed by the actual
 host ip address.
 
 Interface and host metrics have a suffix that contain the type of
-metric (i.e., `traffic` for traffic rates and traffic totals  or
+metric (i.e., `traffic` for traffic rates and traffic totals  orT
 `allprotocols` for layer-7 application protocol rates).
 The type of metric is followed by the unit of measure (i.e., `bps`
 for bits per second, `pps` for packets per second, and `bytes`).
